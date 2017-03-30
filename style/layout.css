@@ -1,0 +1,242 @@
+html,body{
+		overflow-x:hidden;
+	}
+ #overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,1);
+  transition: 1s 0.4s;
+}
+#overlay img{
+	position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+} 
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;
+  top:80%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:80%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}
+	.navbar-inverse{
+	font-family: 'Courgette', cursive;
+	font-size:20px;
+	font-weight:bold;
+	background: linear-gradient(90deg, rgba(255, 251, 0,1) 0%, rgba(241, 1, 1,1) 100%);
+	/* background-color:#ff6600; */
+	color:black;
+	}
+	.navbar-brand{
+		font-family: 'Tangerine', cursive;
+		font-size:45px;
+	}
+	.first{
+		height: 200%;
+		width:100%;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7HZEt1cmh1cUFVRkE');
+	}
+	#c1,#c2{
+	float:left;
+	width:50%;
+	height:50%;
+	position:relative;
+	z-index:3;
+}
+	#img2,#img3,#img4{
+		position: fixed;
+		 top:10%;
+		 left:-85%;
+		 height:60%;
+		 width:50%
+	}
+	#foods{
+		position: absolute;
+		top:30%;
+		left:25%;
+		height:45%;
+	}
+	#img3{
+		left:-95%;
+	}
+	.second{
+		height: 200%;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7HNFZHQjQxVGNMekU');
+	}
+	.third{
+		height: 200%;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7Hck0xOTBGMzBwWFk');
+	}
+	.fourth{
+		height: 200%;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7HZGVjWjFEeDF6eTQ');
+	}
+	.menu{
+		height: 200%;
+		color:white;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7HMm5fZlU1Mk8zOWM');
+	}
+	.items{
+		position:absolute;
+		background-color:rgba(0,0,0,0.8);
+		margin:0%;
+		padding:2%;
+		top:40%;
+		left:35%;
+		border-radius:5%;
+		font-family: 'Tangerine', cursive;
+		
+	}
+	.items h1{
+		font-size:50px;
+	}
+	.items h3{
+		font-size:40px;
+	}
+	.items img{
+		height:15%;
+		padding:2%;
+		}
+	#AboutUs{
+		height: 200%;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7HSXFtUWRKWmpaTUU');
+	}
+	.about{
+		position:absolute;
+		margin:10px;
+		padding:2%;
+		text-align:center;
+		font-family: 'Tangerine', cursive;
+		background-color:rgba(155, 164, 21,0.4);
+		color:black;
+		top:5%;
+		left:0;
+		right:0;
+	}
+	.about h1{
+		font-size:100px;
+		font-weight:bold;
+	}
+	.about h2{
+		font-size:60px;
+	}
+	.about h3{
+		font-size:45px;
+	}
+	.about2{
+		position:absolute;
+		margin:10px;
+		padding:2%;
+		text-align:center;
+		font-family: 'Tangerine', cursive;
+		background-color:rgba(155, 164, 21,0.4);
+		color:black;
+		left:0;
+		right:0;
+		top:35%;
+		font-size:50px;
+	}
+	.about2 ul{
+		list-style-type: none;
+		font-size:70px;
+	}
+	.about2 li{
+		list-style-type: none;
+		font-size:55px;
+	}
+	#ContactUs{
+		height: 100%;
+		position: relative;
+		background-attachment: fixed;
+		background-repeat:repeat;
+		background-size: cover;
+		background-image: url('https://drive.google.com/uc?id=0BzREc-2Svb7HV3d1d25PU1Q3X2c');
+		text-align:center;
+	}
+	#details{
+	padding:10px;
+	position:fixed;
+	font-size:90px;
+	z-index:999;
+    top: 40%;
+    left: 65%;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	border-radius:2%;
+	opacity:0;
+	}
+	#details h1{
+		font-family: 'Tangerine', cursive;
+		font-size:60px;
+	}
+	#price h1{
+		font-family: 'Tangerine', cursive;
+		font-size:100px;
+		position:fixed;
+		left:40%;
+		top:100%;
+		background-color:rgba(0,0,0,0.8);
+		color:white;
+		z-index:5;
+	}
+	.contact{
+		position:absolute;
+		margin:10px;
+		padding:2%;
+		color:black;
+		font-family: 'Tangerine', cursive;
+		background-color:rgba(155, 164, 21,0.2);
+		text-align:center;
+		left:10%;
+		right:10%;
+	}
+	.contact div{
+		margin:10px;
+		padding:2%;
+	}
+	.contact h1{
+		font-size:100px;
+	}
+	.contact img{
+		width:25%;
+		margin-left:5%;
+	}
